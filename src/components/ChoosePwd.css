@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+}
+.cp-upper-img{
+    background-image: url("./images/upper.png");
+    background-repeat: no-repeat;
+    background-size: 17rem;
+    height: 17rem;
+}
+.cp-lower-img{
+    background-image: url("./images/lower.png");
+    background-repeat: no-repeat;
+    background-size: 17rem;
+    background-position: 5.2rem 0;
+    height: 15rem; 
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    z-index: 1;
+}
+.choosePwd{
+    position: relative;
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.cp-input{
+    border: 0.5px solid #A7A7A7;
+    border-radius: 4px;
+    height: 2.5rem;
+    width: 15rem;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.cp-form-input{
+    margin-top: 3rem;
+    margin-left: 7.5rem;
+}
+.cp-submit-btn{
+    background-color: #2D88D4;
+    color:#ffffff;
+    border: none;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+}
+.cp-main-heading{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #4F4F4F;
+    font-size: 1.7rem;
+    position: absolute;
+    margin-top: -4rem;
+    margin-left: 4.5rem;
+}
+.cp-label, .cp-note{
+    color: #667085;
+}
+.cp-note{
+    font-size: 0.7rem;
+    margin-left: 7.5rem;
+}
+.cp-progress{
+    position: absolute;
+    bottom: -10rem;
+    left: -12rem;
+    height: 7rem;
+}
